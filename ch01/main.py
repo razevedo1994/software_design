@@ -20,6 +20,7 @@ def fill(catalogue: Catalogue):
 
     catalogue.add("Ender's Game", "Card", "Orson")
 
+
 def search(catalogue: Catalogue, target: Book):
     print()
     print("Find ", end="")
@@ -36,6 +37,7 @@ def search(catalogue: Catalogue, target: Book):
             print(" ", end="")
             print(book)
 
+
 def test(catalogue: Catalogue):
     target = Book("Life of Pi", "Martel", "Yann")
     search(catalogue, target)
@@ -48,6 +50,7 @@ def test(catalogue: Catalogue):
 
     target = Book("", "", "")
     search(catalogue, target)
+
 
 if __name__ == "__main__":
     catalogue = Catalogue()
