@@ -17,4 +17,4 @@ class Book:
         return self._first
 
     def __str__(self):
-        return f"{{TITLE: '{self._title}', LAST: '{self._last}', FIRST: '{self.self._first}'}}"
+        return f"{{TITLE: '{self._title}', LAST: '{self._last}', FIRST: '{self._first}'}}"
